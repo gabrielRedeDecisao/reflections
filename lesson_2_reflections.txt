@@ -1,0 +1,11 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+	When I initialize a repository, a new hidden folder is created to include the
+	history of the commits. This is necessary. Without that, it's impossible to
+	do commits and we have no version control of our project.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+	The staging area is like a waiting room of a hospital. It helps to separate
+	the moments to do commits.
