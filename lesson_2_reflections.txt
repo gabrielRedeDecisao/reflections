@@ -25,3 +25,5 @@ organized? How would branches help?
 git log --graph --oneline $branch1 $branch2 ...
 
 	This command shows the log in a graph structure to see branches and their origins.
+
+When you merge two branches, all branches' commits will appear at the new merged branch, being classified by timestamp.
