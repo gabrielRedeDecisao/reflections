@@ -21,3 +21,7 @@ organized? How would branches help?
 
 	I can use branches to make a lot of evolution types in my code, opening oportunities
 	to more experimentation without losting progress on official version.
+
+git log --graph --oneline $branch1 $branch2 ...
+
+	This command shows the log in a graph structure to see branches and their origins.
