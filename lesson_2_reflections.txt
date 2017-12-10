@@ -21,3 +21,8 @@ organized? How would branches help?
 
 	I can use branches to make a lot of evolution types in my code, opening oportunities
 	to more experimentation without losting progress on official version.
+
+How do the diagrams help you visualize the branch structure?
+
+	Diagrams are a improved visual way to see the historic of different versions
+	beyond master.
