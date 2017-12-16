@@ -31,3 +31,20 @@ What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
 	The branch diagram is a good represent of the version history.
+	to more experimentation without losting progress on official version.
+
+Notes:
+
+git log --graph --oneline $branch1 $branch2 ...
+
+	This command shows the log in a graph structure to see branches and their origins.
+
+When you merge two branches, all branches' commits will appear at the new merged branch, being classified by timestamp.
+
+A merge will result in a conflict when the same part of a code is changed in
+both versions.
+When you try to merge two branches that results in a conflict, git will modify
+the program marking the lines that result in it, dividing it into three section.
+HEAD is the first section and marks your code. The master is the second section
+and marks the master code. The 'merge common ancestors' is the third section and 
+marks the code that both branches modify.
