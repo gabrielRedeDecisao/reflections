@@ -33,6 +33,13 @@ the diagram the way we do?
 	The branch diagram is a good represent of the version history.
 	to more experimentation without losting progress on official version.
 
+What are the pros and cons of Git's automatic merging vs. always doing merges
+manually?
+
+	Pros: git's automatic merging gives a branch the changes of another branch.
+	Cons: you can't see some code lines that can be interesting to you to do some
+	changes to make more sense to the new version of the code.
+
 Notes:
 
 git log --graph --oneline $branch1 $branch2 ...
