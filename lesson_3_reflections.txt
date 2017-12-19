@@ -3,3 +3,8 @@ local?
 
     A remote repository can receive contributions from another users, being a
     project more widely explored.
+
+Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?
+
+	Some changes you may want not to publish.
